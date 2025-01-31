@@ -7,6 +7,7 @@ Before using the URI to JSON scripts, ensure you have the following softwares in
 - `base64` (coreutils)
 - `awk`
 
+# Description
 Основанно на проекте https://github.com/ImanSeyed/v2ray-uri2json
 Скрипт переписан для консоли OpenWRT (sh)
 Скрипт автоматически формирует конфигурационный файл json для SING-BOX из строки типа vless://... или https://...
