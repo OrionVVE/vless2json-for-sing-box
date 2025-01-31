@@ -4,8 +4,6 @@ Automatically convert vless string format (vless:// or https://) to json configu
 # Dependencies
 Before using the URI to JSON scripts, ensure you have the following softwares installed:
 - `jq`
-- `base64` (coreutils)
-- `awk`
 
 # Description
 Основанно на проекте https://github.com/ImanSeyed/v2ray-uri2json
