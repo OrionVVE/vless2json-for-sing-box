@@ -20,11 +20,6 @@ SERVER_ADDRESS=$(echo "$PARSE_ME" | awk -F'[@:?]' '{print $2}')
 SERVER_PORT=$(echo "$PARSE_ME" | awk -F'[@:?]' '{print $3}' | sed 's/[^0-9]*//g')
 REMARKS=$(echo "$PARSE_ME" | awk -F '[#]' '{print $2}')
 
-echo USER_ID = $USER_ID
-echo SERVER_ADDRESS = $SERVER_ADDRESS
-echo SERVER_PORT = $SERVER_PORT
-echo REMARKS = $REMARKS
-
 eval "$(echo "$QUERY" | awk -F '&' '{
         for(i=1;i<=NF;i++) {
                 print $i
